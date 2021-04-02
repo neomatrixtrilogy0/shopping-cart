@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!--Navbar Start-->
+            <nav class="navbar">
+                <a href="index.html" class="navbar-brand">Vintage</a>
+                <button type="button" class="navbar-toggler"><i class="fas fa-bars"></i></button>
+                <div class="navbar-collapse">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="cart">
+                    <button type="button" id="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cart-count-info">0</span>
+                    </button>
+
+                    <div class="cart-container">
+                        <div class="cart-list">
+                            <!--Single Item-->
+                            <div class="cart-item">
+                                <img src="images/arm-chair.jpeg" alt="Arm Chair">
+                                <div class="cart-item-info">
+                                    <h3 class="cart-item-name">Arm Chair</h3>
+                                    <span class="cart-item-category">Chair</span>
+                                    <span class="cart-item-price"> $120.00</span>
+                                </div>
+                                <button type="button" class="cart-item-del-btn">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+
+                            <!--End Single Item-->
+                        </div>
+
+                        <div class="cart-total">
+                            <h3>Total: $</h3>
+                            <span id="cart-total-value">$120.00</span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--Navbar End-->
+        </div>
+    </header>
+</body>
+</html>
