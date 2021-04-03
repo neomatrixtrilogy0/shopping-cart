@@ -352,6 +352,10 @@ header .container {
     background-color: #23272a;
     color: var(--fire-bush);
 }
+.product-name {
+    font-size: 21px;
+    color: var(--baltic-sea);
+}
 .product-category {
     margin: 13px;
     display: inline-block;
