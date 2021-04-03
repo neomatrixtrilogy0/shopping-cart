@@ -1,0 +1,1 @@
+In this project, I am going to create a shopping cart with vanilla Js and Json. 
